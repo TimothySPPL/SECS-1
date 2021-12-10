@@ -1,12 +1,15 @@
-//Arrays 1,2,3,4,5,6,7,8,9
+//Array
 
-int[] numbers = {4,7,9,2,9,2,7,};
+//syntax = DataType[] name = {element0,element1...elementn};
 
-int i = numbers[2];
-println(i);
+String[] names = {"John", "Mary", "U Ba", "Mg Mg"};
 
-String[] animals = {"Cat", "Dog", "Cow", "Duck", "Bird", "Elephant"};
+//John = 0
+//Mary = 1
+//U Ba = 2
 
-for(int n = 0; n<numbers.length; n++){
- println(numbers[n]); 
+String ele1 = names[1]; //Marry 
+
+for(int i = 0; i<names.length; i++){
+  println(names[i]);
 }
